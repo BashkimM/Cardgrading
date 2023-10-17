@@ -1,2 +1,8 @@
 #ignore .env file
 .env/
+
+#ignore ai files* 
+ai_stuff/
+
+#ignore runs*
+runs/
