@@ -4,7 +4,7 @@ import os
 from ultralytics import YOLO
 from ultralytics.utils.plotting import Annotator  # ultralytics.yolo.utils.plotting is deprecated
 
-model = YOLO('runs/detect/train19/weights/best.pt')
+model = YOLO('runs/segment/train8/weights/best.pt')
 
 def analyze_centering(bild_pfad):
 

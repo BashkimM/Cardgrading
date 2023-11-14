@@ -6,3 +6,12 @@ ai_stuff/
 
 #ignore runs*
 runs/
+
+#ignore temp*
+tempDirectory/
+
+#ignore yolostuff
+yolov8*
+
+#ignore ds stuff
+.DS*

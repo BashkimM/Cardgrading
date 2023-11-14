@@ -1,12 +1,12 @@
 import os
-import time
+import time 
 import shutil
 import zipfile
 import json
 
 # Importieren Sie die Funktionen oder Klassen aus den Analyse-Skripten
 from analyze_centering import analyze_centering
-from analyze_edge import analyse_edge
+from analyze_edge import analyze_edge
 from analyze_corner import analyse_corner
 
 # Das Verzeichnis, das Sie überwachen möchten
@@ -37,7 +37,7 @@ def verarbeite_bild(bild_pfad):
     
     # Rufen Sie die entsprechenden Funktionen oder Klassen aus den Analyse-Skripten auf
     bearbeitetes_array_centering = analyze_centering(bild_pfad)
-    bearbeitetes_array_edge = analyse_edge(bild_pfad)
+    bearbeitetes_array_edge = analyze_edge(bild_pfad)
     bearbeitetes_array_corner = analyse_corner(bild_pfad)
     
     # Fügen Sie die Ergebnisse der Analysen dem bearbeiteten Array hinzu oder verarbeiten Sie sie
